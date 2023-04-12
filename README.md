@@ -1,4 +1,4 @@
-# FLbox
+# FL-box
  
 ### Instalare
 1. Depindințe: cURL, Git, Docker-CE, Docker Compose
@@ -16,7 +16,7 @@ chmod +x ~/.docker/cli-plugins/docker-compose
 ``` 
 cd /
 git clone https://github.com/HomeLab-PVE/FL-box.git
-cd /FLbox
+cd /FL-box
 ```  
 3. Crează și editează fișier .env
 ``` 
