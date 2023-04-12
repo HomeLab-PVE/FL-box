@@ -1,4 +1,4 @@
-# FLbox
+# FL-box
  
 ### Instalare
 1. Depindințe: cURL, Git, Docker-CE, Docker Compose
