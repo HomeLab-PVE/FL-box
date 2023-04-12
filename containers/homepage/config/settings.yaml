@@ -1,0 +1,20 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Settings
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+layout:
+  Media server:
+    style: row
+    columns: 2
+  Media management:
+    style: row
+    columns: 2
+  Download:
+   style: row
+   coloumns: 1
+  Containers management:
+    style: row
+    columns: 1

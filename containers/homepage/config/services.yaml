@@ -1,0 +1,69 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Services
+
+- Media server:
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://192.168.90.2:8096
+        description: Streaming media
+        widget:
+          type: jellyfin
+          url: http://192.168.90.2:8096
+          key: 
+    - Jellyseerr:
+        icon: jellyseerr.png
+        href: http://192.168.90.2:5055
+        description: Request media
+        widget:
+          type: jellyseerr
+          url: http://192.168.90.2:5055
+          key: 
+          
+- Media management:
+    - Radarr:
+        icon: radarr.png
+        href: http://192.168.90.2:7878
+        description: Movie management
+        widget:
+          type: radarr
+          url: http://192.168.90.2:7878
+          key: 
+    - Sonarr:
+        icon: sonarr.png
+        href: http://192.168.90.2:8989/
+        description: Series management
+        widget:
+          type: sonarr
+          url: http://192.168.90.2:8989
+          key: 
+    - Bazarr:
+        icon: bazarr.png
+        href: http://192.168.90.2:6767/
+        description: Subtitles management
+        widget:
+          type: bazarr
+          url: http://192.168.90.2:6767
+          key: 
+    - Jackett:
+        icon: jackett.png
+        href: http://192.168.90.2:9117/
+        description: Indexers  management
+        widget:
+          type: jackett
+          url: http://192.168.90.2:9117
+- Download:
+    - qBittorrent:
+        icon: qbittorrent.png
+        href: http://192.168.90.2:8855/
+        description: Download Client
+        widget:
+          type: qbittorrent
+          url: http://192.168.90.2:8855
+          username: utilizator
+          password: parola
+- Containers management:
+    - Portainer:
+        icon: portainer.png
+        href: http://192.168.90.2:9000/
+        description: Portainer Web UI
